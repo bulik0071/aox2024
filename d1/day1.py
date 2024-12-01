@@ -14,8 +14,8 @@ def find_similarity_score(el:int,times_appeared:int):
 right_list=[]
 left_list=[]
 
-test='puzzle_example.txt'
-prod='puzzle_input.txt'
+test='./d1/puzzle_example.txt'
+prod='./d1/puzzle_input.txt'
 
 with open(file=prod) as f:
     for element in f:
